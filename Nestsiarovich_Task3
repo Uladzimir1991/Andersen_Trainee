@@ -19,7 +19,8 @@ public class Task_2 {
                 if (array[i] % 3 ==0){
                     System.out.println(" ");
                     System.out.print(" " + array[i]+ " кратное 3");
-                }
+                }   else if(array[i] % 3 != 0){
+                    continue;
             }
             System.out.println();
         }

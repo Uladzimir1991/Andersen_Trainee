@@ -6,7 +6,9 @@ public class Task_1 {
         System.out.print("Введите число: ");
         int num = sc.nextInt();
         if (num > 7) {
-            System.out.println("Привет! ");
+            System.out.println("Привет! ");       
+        } else(num<=7){
+            System.out.println("Вы ввели неверное число! ")
         }
     }
 }
